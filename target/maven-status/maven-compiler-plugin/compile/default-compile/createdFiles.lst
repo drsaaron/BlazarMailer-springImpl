@@ -1,0 +1,3 @@
+com/blazartech/products/mail/impl/spring/MessageMailerMimePreparator.class
+com/blazartech/products/mail/impl/spring/MessageMailerSpringImpl.class
+com/blazartech/products/mail/impl/spring/config/MailerConfiguration.class
