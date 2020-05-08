@@ -7,7 +7,8 @@ package com.blazartech.products.mail.impl.spring.config;
 
 import com.blazartech.products.crypto.BlazarCryptoFile;
 import java.util.Properties;
-import org.apache.log4j.Logger;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
@@ -22,7 +23,7 @@ import org.springframework.mail.javamail.JavaMailSenderImpl;
 @Configuration
 public class MailerConfiguration {
     
-    private static final Logger logger = Logger.getLogger(MailerConfiguration.class);
+    private static final Logger logger = LoggerFactory.getLogger(MailerConfiguration.class);
     
     @Autowired
     private BlazarCryptoFile cryptoFile;
