@@ -9,10 +9,10 @@ import com.blazartech.products.mail.MailMessage;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
-import javax.mail.Address;
-import javax.mail.Message;
-import javax.mail.internet.InternetAddress;
-import javax.mail.internet.MimeMessage;
+import jakarta.mail.Address;
+import jakarta.mail.Message;
+import jakarta.mail.internet.InternetAddress;
+import jakarta.mail.internet.MimeMessage;
 import org.springframework.mail.javamail.MimeMessagePreparator;
 
 /**
