@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.blazartech</groupId>
     <artifactId>BlazarMailer-springImpl</artifactId>
-    <version>1.54-RELEASE</version>
+    <version>1.55-RELEASE</version>
     <packaging>jar</packaging>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -29,7 +29,7 @@
         <dependency>
             <groupId>com.blazartech</groupId>
             <artifactId>BlazarCryptoFile-mvn</artifactId>
-            <version>1.57-RELEASE</version>
+            <version>1.58-RELEASE</version>
         </dependency>
         
         <dependency>
